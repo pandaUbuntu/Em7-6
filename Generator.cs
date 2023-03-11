@@ -9,14 +9,7 @@ namespace ConsoleRPG.Utils
     {
         private static readonly Random random = new Random();
 
-        public static int RandomNumber(int min, int max) => random.Next(min, max + 1);
-
-        public static string GenerateName()
-        {
-            /* This function return random name for Monster */
-            return GenerataFirstPart() + " " + GenerateSecondPart();
-        }
-
+        public static int Rand(int min, int max) => random.Next(min, max + 1);
         private static string GenerataFirstPart()
         {
             /* This function return first part of random name */
