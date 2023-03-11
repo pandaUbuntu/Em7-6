@@ -1,10 +1,6 @@
-﻿using System.Threading.Tasks;
-
-using static ConsoleRPG.Utils.InputOutput;
-
-namespace ConsoleRPG.Utils
+﻿namespace ConsoleRPG.Utils
 {
-    internal class Animation
+    internal class AnimationClass
     {
         string[][] animation;
         bool stop = true;

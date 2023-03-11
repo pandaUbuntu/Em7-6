@@ -1,19 +1,8 @@
 ﻿namespace ConsoleRPG.Utils
 {
-    static class Resources
+    static class Data
     {
         public static readonly string[][] phenix_anim = {
-            new string[] {
-                "               /",
-                "  \\\\\\' ,      / //",
-                "   \\\\\\//    _/ //'",
-                "    \\_-//' /  //<'",
-                "      \\ ///  >   \\\\\\`",
-                "     /,)-^>>  _\\`",
-                "     (/   \\\\ / \\\\\\",
-                "           //  //\\\\\\",
-                "          ((`"
-            },
             new string[] {
                 "                  ",
                 "                  ",

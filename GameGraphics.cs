@@ -3,16 +3,9 @@
 using ConsoleRPG.Creatures.Heros;
 using ConsoleRPG.Creatures.NPC;
 
-using static ConsoleRPG.Utils.InputOutput;
-using static ConsoleRPG.Utils.Generator;
-using static ConsoleRPG.Utils.Resources;
-using System.Runtime.InteropServices;
-using ConsoleRPG.Creature;
-using ConsoleRPG.Items;
-
 namespace ConsoleRPG.Utils
 {
-    static class GameGraphics
+    static class GameGraphicsClass
     {
         public static void DrawGameBanner()
         {
