@@ -5,7 +5,7 @@ using static ConsoleRPG.Utils.Dictionaries;
 
 namespace ConsoleRPG.Utils
 {
-    static class Generator
+    static class DataGenerator
     {
         private static readonly Random random = new Random();
 
